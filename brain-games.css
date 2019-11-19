@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+	background: url(img/Jigsaw-Puzzle-PNG-Image.png) no-repeat;
+	background-size: 100%;
+}
+
+#logo {
+	position: relative;
+	height: 100px;
+	width: 200px;
+	background: url(img/Brain_Games.svg.png) no-repeat;
+	background-size: 200px 100px;
+	margin: 0px auto;
+	z-index: 10;
+}
+
+#console {
+	position: relative;
+	height: 300px;
+	width: 600px;
+	margin: 0px auto;
+	border: 2px black solid;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index: 10;
+	background-color: black;
+}
+
+#description {
+	position: absolute;
+	top: 10px; left: 50px;
+	min-height: 230px;
+	/* padding: 30px; */
+	width: 500px;
+	border: 1px black solid;
+	z-index: 10;
+	background: brown;
+}
+
+#user-answer {
+	position: absolute;
+	top: 250px; left: 50px;
+	height: 30px;
+	width: 500px;
+	border: 1px black solid;
+	z-index: 10;
+}
+
+.game-options {
+	position: absolute;
+	left: 700px;
+	/* //margin: 0px auto; */
+	z-index: 10;
+	background-color: white;
+}
+
+.game {
+	font-size: 15px;
+	height: 25px;
+	background-color: white;
+}
+
+.startButton {
+	position: absolute;
+	font-size: 15px;
+	background-color: white;
+	left: -180px;
+	width: 160px;
+	height: 25px;
+	/* margin: 0px auto; */
+	z-index: 10;
+}
+
+.userText {
+	color: white;
+	z-index: 10;
+}

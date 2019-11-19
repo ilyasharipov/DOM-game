@@ -1,0 +1,44 @@
+<!DOCTYPE html > 
+<html lang=ru >
+<head>
+<title>Brain-games</title>
+<meta charset="utf-8">
+<script src="brain-games.js"></script>
+<link rel="stylesheet" href="brain-games.css" />
+</head>
+<body>
+	<div id="logo">
+	</div>
+	<div id="console">
+		<div id="description">
+			<div align="center">Welcome to the Brain Games!
+					<p align="left">First: choose a game:</p>
+					<br>
+					<ol align="left">
+						<li>brain-even</li>
+						<li>brain-calc</li>
+						<li>brain-prime</li>
+						<li>brain-progression</li>
+						<li>brain-gcd</li>
+					</ol>
+					<br>
+					<p align="left">Second: click on the form.</p>
+					<br>
+					<p align="left">Third: press to Enter to give your answer.</p>
+			</div>
+		</div>
+		<input id="user-answer" type="text" >
+	</div>
+	<div class="game-options">
+		<select class="game" onchange="this.value">
+			<option value="">Select One …</option>
+			<option value="even">brain-even</option>
+			<option value="calc">brain-calc</option>
+			<option value="prime">brain-prime</option>
+			<option value="progression">brain-progression</option>
+			<option value="gcd">brain-gcd</option>
+		</select>
+		<input class="startButton" type="button" value="Start game" />
+	</div>
+</body>
+</html>
